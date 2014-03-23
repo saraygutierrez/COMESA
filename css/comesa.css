@@ -1,0 +1,111 @@
+/*
+    Document   : css/comesa.css
+    Created on : 2014-03-23 05:42 PM
+    Author     : saraygutierrez
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+
+root {
+    display: block;
+}
+
+.anuncio-lateral {
+    margin-bottom:1em;
+    max-width:220px;
+    width:100%;    
+}
+
+.amarillo {
+    color:#e2a438;
+}
+
+.container {
+    margin-top: 1em;
+    max-width:960px;
+}
+
+.contenido {
+    margin-top:1em;
+}
+
+.facebook {
+	display: block;
+    float:right;
+    margin:6px;
+	width: 32px;
+	height: 32px;
+	background: url('../img/sitio/facebook.png') bottom;
+	text-indent: -99999px;
+}
+.facebook:hover {
+	background-position: 0 0;
+}
+
+.flickr {
+	display: block;
+    float:right;
+    margin:6px;
+	width: 32px;
+	height: 32px;
+	background: url('../img/sitio/flickr.png') bottom;
+	text-indent: -99999px;
+}
+.flickr:hover {
+	background-position: 0 0;
+}
+
+.footer {
+    background-color:#e7e7e7;
+    color:#858585;
+    font-size:0.8em;
+}
+
+.head_comesa {
+    width:100%;
+}
+
+.menu-footer {
+    text-align:center;
+}
+
+.nav {
+    font-size:0.9em;
+}
+
+.dropdown-menu {
+    font-size:0.9em;
+}
+
+.sener {
+    width:100%;
+}
+
+
+.twitter {
+	display: block;
+    float:right;
+    margin:6px;
+	width: 32px;
+	height: 32px;
+	background: url('../img/sitio/twitter.png') bottom;
+	text-indent: -99999px;
+}
+.twitter:hover {
+	background-position: 0 0;
+}
+
+.youtube {
+	display: block;
+    float:right;
+    margin:6px;
+	width: 32px;
+	height: 32px;
+	background: url('../img/sitio/youtube.png') bottom;
+	text-indent: -99999px;
+}
+.youtube:hover {
+	background-position: 0 0;
+}
