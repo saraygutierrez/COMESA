@@ -9,59 +9,8 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/comesa.css">
-    <link rel="stylesheet" href="trans_banner/style.css" />
-    <style>
-	    .TB_Wrapper {
-            border-radius:5px;
-		    max-width: 960px;
-		    height: 350px;			
-	    }
-        
-        .TB_Wrapper img {
-            border-radius:5px;
-        }
-    </style>
-      
     
     <script src="trans_banner/jquery-1.7.1.min.js"></script>
-    <script src="trans_banner/jquery.easing.1.3.min.js"></script>
-    <script src="trans_banner/trans-banner.min.js"></script>
-    <script type="text/javascript">
-	    jQuery(function($){
-		    $('.TB_Wrapper').TransBanner({
-			    button_show_back: true,
-			    button_numbers_horizontal: true,
-			    caption_float_mode: true,	
-			    caption_bg_blur: 0,
-			    caption_bg_color: '#000000',
-			    caption_bg_opacity: .7,
-			    caption_bg_radius: 4,
-			    caption_bg_shadow: 0,	
-			    caption_border: 0,			
-						
-                /*All the below settings are related to responsive behavior:
-                IMPORTANT: In order to make limits to work on browser resize, set the last parameter to false	
-
-                To enable or disable Responsive behavior */
-                responsive : true,
-
-                /* To disable autoplay below certain screen size [Ex: 480] */
-                responsive_limit_autoplay : '', 
-
-                /* To disable caption below certain screen size [Ex: 480]*/
-                responsive_limit_caption : 480,
-
-                /* To change navigation type below certain screen size [Ex: 480]*/
-                responsive_limit_navigation : 480,
-
-                /* The navigation type to be used below certain screen size [1: Default, 2: Dot style, 3: Arrow style]*/
-                responsive_limit_navigation_type : 2, 
-
-                /* The limits can be either screen based or banner container based */
-                responsive_screen_based_limits : true 
-		    });	
-	    });	
-    </script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -189,70 +138,38 @@
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav>
-        </div>
+        </div>   
+        
         <div class="row">
-            
-            <div class="TB_Wrapper">
-                
-	            <div class="Slides">
-			
-                    <div class="Slide" data-position="50,50" data-width="250" >
-                        <img src="img/sitio/banner01.png" alt="img1" />
-                        <div>			
-                            <h4 class="amarillo">Título del banner</h4>
-                            Descripción del banner
-                        </div>
-		            </div>
-		
-		            <div class="Slide" data-position="80,150" data-width="350">
-			            <img src="img/sitio/banner02.png " alt="img2" />
-			            <div>	
-                            <h4 class="amarillo">Título del banner</h4>
-                            Queremos compartirte un gran logro más para COMESA en este 2014, 
-                            el cual ratifica nuestra presencia en los mercados internacionales.
-			            </div>
-		            </div>
-                </div><!--End of Slides -->
-            </div><!--End of TB_Wrapper -->
+            <div class="encabezado-interno">
+                <img src="img/sitio/transparencia_head.png" alt="">
+            </div>
         </div>
+        
+        <div class="row">
+            <ol class="breadcrumb whitebg">
+                <li><a href="#">Inicio</a></li>
+                <li class="active">Transparencia</li>
+            </ol>
+        </div> 
+            
         <div class="row contenido">
-            <div class="col-xs-12 col-sm-4">
-                <h4>Noticias</h4>
-                <strong class="amarillo">COMESA firma segundo contrato internacional</strong>
-                <p>Queremos compartirte un gran logro más para COMESA en este 2014, el cual ratifica nuestra 
-                    presencia en los mercados internacionales. 
-                </p>
-                <p><a href="#">Leer más</a></p>
-                
-                <strong class="amarillo">COMESA firma segundo contrato internacional</strong>
-                <p>Queremos compartirte un gran logro más para COMESA en este 2014, el cual ratifica nuestra 
-                    presencia en los mercados internacionales. 
-                </p>
-                <p><a href="#">Leer más</a></p>
+            <div class="col-xs-12 col-sm-3">
+               <div class="list-group">
+                    <a href="#" class="list-group-item">Normatividad en Materia de Transparencia</a>
+                    <a href="#" class="list-group-item">Comité de Información</a>
+                    <a href="#" class="list-group-item">Transparencia Focalizada</a>
+                    <a href="#" class="list-group-item">Indicadores de Programas Presupuestarias</a>
+                    <a href="#" class="list-group-item">Recomendaciones Dirigidas a la SE</a>
+                    <a href="#" class="list-group-item">Estudios y Opiniones</a>
+                    <a href="#" class="list-group-item">Programa del Plan Nacional de Desarrollo</a>
+                </div>
                 
             </div>
-            <div class="col-xs-12 col-sm-5">
-                <h4>Licitaciones</h4>
-                <ul>
-                    <li><a href="#">Políticas, Bases y Lineamientos en Materia de Adquisiciones, Arrendamientos y Servicios</a></li>
-                    <li><a href="#">Políticas, Bases y Lineamientos en Materia de Obras Públicas y Servicios relacionados con las mismas</a></li>
-                </ul>
+            <div class="col-xs-12 col-sm-6">
+                <h4>Transparencia</h4>
+                <p>El acceso a la información debe ser el pilar sobre el que se construyan políticas y acciones en materia de transparencia, rendición de cuentas y participación ciudadana que permitan generar un puente de diálogo sincero entre autoridades y ciudadanos. Mediante estas acciones habremos de fortalecer un gobierno más abierto al escrutinio público y fomentar una relación entre sociedad y gobierno basada en la confianza, la colaboración y la responsabilidad compartida.</p>
                 
-                <hr class="divider" />
-                
-                <h4>Programa Nacional de Rendición de Cuentas, Transparencia y Combate a la Corrupción PNRCTCC</h4>
-                <ul>
-                    <li><a href="#">Blindaje Electoral</a></li>
-                    <li><a href="#">Transparencia y Rendición de cuentas</a></li>
-                </ul>
-                
-                <hr class="divider" />
-                
-                <h4>Quejas y Denuncias</h4>
-                <ul>
-                    <li><a href="#">Quejas y Denuncias</a></li>
-                    <li><a href="#">Políticas de Privacidad</a></li>
-                </ul>
             </div>
             <div class="col-xs-12 col-sm-3">
                 

@@ -12,6 +12,14 @@ root {
     display: block;
 }
 
+.anuncios-abajo {
+    text-align:center;
+}
+
+.anuncios-abajo img {
+    margin:11px;
+}
+
 .anuncio-lateral {
     margin-bottom:1em;
     max-width:220px;
@@ -29,6 +37,10 @@ root {
 
 .contenido {
     margin-top:1em;
+}
+
+.encabezado-interno {
+    width:100%;
 }
 
 .facebook {
@@ -97,6 +109,11 @@ root {
 	background-position: 0 0;
 }
 
+.whitebg {
+    background-color:white;
+    margin:0;
+}
+
 .youtube {
 	display: block;
     float:right;
@@ -109,3 +126,4 @@ root {
 .youtube:hover {
 	background-position: 0 0;
 }
+
