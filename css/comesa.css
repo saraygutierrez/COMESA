@@ -39,7 +39,7 @@ root {
     margin-top:1em;
 }
 
-.encabezado-interno {
+.encabezado-interno img {
     width:100%;
 }
 
@@ -87,6 +87,16 @@ root {
     font-size:0.9em;
 }
 
+.precio {
+    text-align:center;
+    color:#324d87;
+}
+
+.precio-detalles {
+    font-size:0.8em;
+    text-align:center;
+}
+
 .dropdown-menu {
     font-size:0.9em;
 }
@@ -111,7 +121,10 @@ root {
 
 .whitebg {
     background-color:white;
-    margin:0;
+    margin-top:-10px;
+    margin-bottom:-5px;
+    padding-top:0;
+    padding-bottom:0;
 }
 
 .youtube {
