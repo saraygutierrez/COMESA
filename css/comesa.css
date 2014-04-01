@@ -30,6 +30,10 @@ root {
     color:#e2a438;
 }
 
+.blanco {
+    color:white;
+}
+
 .container {
     margin-top: 1em;
     max-width:960px;
