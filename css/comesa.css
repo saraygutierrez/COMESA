@@ -7,13 +7,22 @@
     To change this template use Tools | Templates.
 */
 
-
+body {
+    background-image: url('../img/sitio/bg.png');
+    background-repeat: repeat-x;
+    background-color: #ededed;
+}
 root {
     display: block;
 }
 
 .anuncios-abajo {
     text-align:center;
+}
+
+.anuncios-abajo img {
+    width:160px;
+    height:80px;
 }
 
 .anuncios-abajo img {
@@ -35,12 +44,11 @@ root {
 }
 
 .container {
-    margin-top: 1em;
     max-width:960px;
 }
 
 .contenido {
-    margin-top:1em;
+    
 }
 
 .encabezado-interno img {
@@ -73,10 +81,14 @@ root {
 	background-position: 0 0;
 }
 
-.footer {
-    background-color:#e7e7e7;
+.footer-white {
     color:#858585;
     font-size:0.8em;
+    background-color:white;
+    box-shadow:1px 1px 1px rgba(0,0,0,0.3);
+    border-radius:0 0 6px 6px;
+    border-top: solid 3px #3583c1; 
+    padding:0 2em 1em 2em;
 }
 
 .head_comesa {
@@ -87,8 +99,41 @@ root {
     text-align:center;
 }
 
+.menu-top{
+    background-color:#3583c1;
+    padding:7px 6px;
+    font-size:0.7em;
+    color:white;
+    margin:0;
+    text-align:right;
+}
+
+.menu-top a{
+    color:white;
+    padding:8px 5px;
+    text-decoration:none;
+}
+
+.menu-top a:hover{
+    background-color:#1b4d8c;
+}
 .nav {
     font-size:0.9em;
+   
+}
+
+.navbar {
+    border-top: solid 3px #3583c1;  
+    box-shadow:1px 3px 3px #bbbbbb;
+}
+
+.oficinas {
+    text-align:center;
+    padding:1em;
+}
+
+.oficinas img {
+    border:solid 3px #3583c1;
 }
 
 .precio {
@@ -105,6 +150,9 @@ root {
     font-size:0.9em;
 }
 
+.red {
+    color:red;
+}
 .sener {
     width:100%;
 }
@@ -129,6 +177,12 @@ root {
     margin-bottom:-5px;
     padding-top:0;
     padding-bottom:0;
+}
+
+.white {
+    background-color:white;
+    box-shadow:1px 1px 1px rgba(0,0,0,0.3);
+    padding: 1em;
 }
 
 .youtube {
